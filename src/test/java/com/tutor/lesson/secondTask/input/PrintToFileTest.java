@@ -28,6 +28,7 @@ class PrintToFileTest {
     @Test
     void readFile(){
         String actual = PrintToFile.readFile("src/main/resources/test/FileForTests.txt.txt");
+        String path_new = "";
         String expected = "1, 2, 3";
         assertEquals(expected, actual);
     }
