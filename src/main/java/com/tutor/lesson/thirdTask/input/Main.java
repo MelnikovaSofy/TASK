@@ -1,5 +1,6 @@
-package com.tutor.lesson.thirdTask;
+package com.tutor.lesson.thirdTask.input;
 
+import com.tutor.lesson.thirdTask.Mark;
 import com.tutor.lesson.thirdTask.factory.MarkEnum;
 import com.tutor.lesson.thirdTask.factory.MarksFactory;
 import org.apache.logging.log4j.LogManager;
@@ -11,8 +12,8 @@ public class Main {
     private static final Logger LOGGER = LogManager.getLogger();
 
     public static void main(String[] args) {
-        MarksFactory marksFactory = new MarksFactory();
+        /*MarksFactory marksFactory = new MarksFactory();
         Mark excellent = marksFactory.createMark(MarkEnum.EXCELLENT);
-        LOGGER.info(excellent);
+        LOGGER.info(excellent);*/
     }
 }
